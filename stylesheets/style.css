@@ -1,0 +1,161 @@
+
+.container {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(../images/bg.png);
+}
+
+.container header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #075E54;
+}
+
+#a-logo {
+  margin-right: auto;
+}
+#logo {
+  height: 80px;
+  
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: rgba(255,255,255, 0.7);
+}
+#a-linkedin {
+  margin: 20px;
+}
+
+#linkedin {
+  height: 30px;
+  padding: 10px 0 0 0;
+}
+
+nav {
+  margin-top: 20px;
+}
+header nav ul li {
+  
+  display: inline;
+  padding: 40px 20px;
+    
+}
+
+.sub-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5e4507;
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(94,9,7, 0.5);
+}
+
+.sub-nav img {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 180px;
+
+}
+
+.sub-nav h1, .sub-nav hr, .sub-nav p {
+  color: white;
+}
+
+.sub-nav hr {
+  width: 370px;
+}
+
+.sub-nav p {
+  font-size: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(10, 10, 10, 0.5);
+  width: 50%;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+
+.inner-content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 25px 0 25px ;
+}
+
+
+.inner-content div {
+  
+  width: 50%;
+  
+  padding: 5px 10px;
+}
+
+.inner-content div * {
+  font-size: 16px;
+  line-height: 150%;
+  
+}
+
+form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  height: 200px;
+  resize: none;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background-color: green;
+  padding: 15px 32px;
+  margin: 8px 0 16px 0;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(0, 128, 0, 0.6);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #075E54;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
